@@ -1,0 +1,57 @@
+body {
+  background-color: #292c34;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* navbar + list */
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+nav {
+  background-color: #010001;
+  margin: 0 auto;
+  padding: 15px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+}
+
+/* Everything under navbar */
+.restaurant-list {
+  background-color: #e0dfe0;
+  padding-top: 11.7%;
+  width:100%;
+}
+
+/* Location includes text + arrow */
+.location:hover {
+  Background-color: #b4b3b5;
+}
+
+.location {
+  line-height: 2em;
+  padding:5%;
+  border: 1px solid #898789;
+  width: 100%;
+}
+
+.content h1 {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+/* Address */
+.content h3 {
+  font-size: 1.4em;
+}
+
+.arrow {
+  text-align:right;
+  margin-top: -8%;
+}
